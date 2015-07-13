@@ -1,8 +1,31 @@
+html, body {
+  height: 100%;
+}
+
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0px;
 }
 
 a {
   color: #00B7FF;
+}
+
+.main-area {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.title-area {
+  height: 100%;
+  color: white;
+  font-size: 6vw;
+}
+
+.title-area span {
+  vertical-align: middle;
+  top: 25%;
+  left: 25%;
+  position: absolute;
+  transform: translate(0,-50%);
 }
