@@ -48,3 +48,25 @@ a {
   position: absolute;
   transform: translate(0,-50%);
 }
+.title-area-minimized {
+  height: 0%;
+  background-color: white;
+}
+
+#header-location {
+  top: 4%;
+  left: 3%;
+  vertical-align: middle;
+  position: absolute;
+  transform: translate(0,-50%);
+  font-size: 2vw;
+}
+
+#locationSearched {
+  top: 4%;
+  left: 12%;
+  vertical-align: middle;
+  position: absolute;
+  transform: translate(0,-50%);
+  font-size: 2vw;
+}
