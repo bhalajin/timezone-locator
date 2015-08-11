@@ -21,3 +21,8 @@ var searchLocation = function () {
     }
   });
 };
+
+var newSearch = function () {
+  var searchText = $("<input type='text' />")
+  $("#locationSearched").html(searchText);
+};
