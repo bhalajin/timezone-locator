@@ -14,6 +14,10 @@ var searchLocation = function () {
     if(data.status==='OK'){
       $("#latitude").text(data.results[0].geometry.location.lat);
       $("#longitude").text(data.results[0].geometry.location.lng);
+      $(".geometry-display").css({
+        'height': '10%',
+        'transition': 'height 0.5s'
+      });
     }
   });
 };

@@ -70,3 +70,30 @@ a {
   transform: translate(0,-50%);
   font-size: 2vw;
 }
+
+.geometry-display {
+  top: 95%;
+  vertical-align: middle;
+  position: absolute;
+  transform: translate(0,-50%);
+  background-color: white;
+  height: 0%;
+  width: 100%;
+  font-size: 2vw;
+}
+
+#latitude {
+  top: 25%;
+  vertical-align: middle;
+  position: absolute;
+  transform: translate(0,-50%);
+  font-size: 2vw;
+}
+
+#longitude {
+  top: 59%;
+  vertical-align: middle;
+  position: absolute;
+  transform: translate(0,-50%);
+  font-size: 2vw;
+}
