@@ -16,5 +16,7 @@ The application requires node.js to be installed in the system
 
 1. Open git bash at the root location
 2. Install node packages using "npm install"
-3. Run the server using "node app.js"
-4. Open browser of your choice and navigate to "localhost:3000". (PS: The server is configured to run at port 3000. If it is changed navigate appropriately)
+3. It is necessary to add the configurations necessary for using google APIs.
+4. Register the project and add the AUTHKEY in the configurations.js file
+5. Run the server using "node app.js"
+6. Open browser of your choice and navigate to "localhost:3000". (PS: The server is configured to run at port 3000. If it is changed navigate appropriately)
